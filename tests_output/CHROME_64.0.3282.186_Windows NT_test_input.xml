@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="test_input"
+    errors="0" failures="1" hostname="" id="" package="test_input" skipped="0"
+    tests="3" time="7.538" timestamp="Wed, 14 Mar 2018 22:06:36 GMT">
+  
+    <testcase name="enter values and submit" classname="test_input" time="5.903" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="restart / clear button test" classname="test_input" time="0.1730" assertions="0">
+    </testcase>
+  
+    <testcase name="break Header and Sex Field and submit" classname="test_input" time="1.462" assertions="3">
+
+    
+
+      <failure message="Testing if attribute outerText of &lt;//list[@id=&#34;errorList&#34;]/li[2]&gt; equals &#34;The &#34;Sex&#34; field should be 1 character .&#34;.">    at Object.break Header and Sex Field and submit (C:\Users\brohrbacher\Desktop\Your Documents\DevMountain Class\Class\Automation Week\Projects\Enter Wanted\tests\test_input.js:62:21)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

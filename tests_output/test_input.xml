@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test_input"
+    errors="1" failures="0" hostname="" id="" package="test_input" skipped="0"
+    tests="1" time="0.005000" timestamp="Wed, 14 Mar 2018 20:24:35 GMT">
+  
+    <testcase name="enter values" classname="test_input" time="0.005000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test Input / enter values]:
+
+  TypeError: browser.waitForElementPresent(...).setValue(...).verify.valuecontains is not a function
+    at Object.enter values (C:\Users\brohrbacher\Desktop\Your Documents\DevMountain Class\Class\Automation Week\Projects\Enter Wanted\tests\test_input.js:12:17)
+    at Module.call (C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\brohrbacher\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
